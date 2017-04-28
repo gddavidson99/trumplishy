@@ -1,0 +1,66 @@
+/* === GLOBAL === */
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+/* === GENERAL === */
+.btn-danger {
+	background: #f27f20;
+	border: none;
+	font-weight: bold;
+}
+
+.btn-danger:hover {
+	background: #ef6c0e;
+	border: none;
+}
+
+.btn-danger:focus {
+	background: #ef6c0e !important;
+	outline: none;
+	border: none;
+}
+
+/* === LAYOUT === */
+#site-header {
+	font-family: 'Anton';
+	background: #f27f20;
+	color: white;
+	text-align: center;
+	padding: 0 0 10px;
+	border-bottom: 7px solid #723c1d;
+}
+
+#site-header h1 sup {
+	color: white;
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-size: 26px;
+}
+
+#trumpForm {
+	text-align: center;
+}
+
+#trumpForm textarea {
+	margin: 20px 0;
+	height: 180px;
+	font-size: 24px;
+	resize: none;
+}
+
+#trumpForm textarea:focus {
+    border-color: rgba(242, 133, 31, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(242, 133, 31, 0.075) inset, 0 0 8px rgba(242, 133, 31, 0.6) !important;
+    outline: 0 none !important;
+}
+
+#final-text {
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.cap {
+	text-transform: capitalize;
+}
